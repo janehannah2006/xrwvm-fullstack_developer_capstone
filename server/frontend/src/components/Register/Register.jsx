@@ -1,7 +1,7 @@
 function Register() {
   return (
-    <div>
-      <h1>Sign Up</h1>
+    <form>
+      <h1>Register</h1>
 
       <input type="text" placeholder="Username" />
       <br /><br />
@@ -18,8 +18,8 @@ function Register() {
       <input type="password" placeholder="Password" />
       <br /><br />
 
-      <button>Register</button>
-    </div>
+      <button type="submit">Register</button>
+    </form>
   );
 }
 
